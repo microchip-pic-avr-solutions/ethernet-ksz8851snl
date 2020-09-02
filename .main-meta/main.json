@@ -1,0 +1,69 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.mplabx.project.ksz8851snl-example",
+        "version": "1.0.1",
+        "displayName": "KSZ8851SNL DRIVER MPLAB",
+        "projectName": "ksz8851snl-example-mplab",
+        "shortDescription": "Microchip KSZ8851SNL Driver Example",
+        "ide": {
+            "name": "MPLABX",
+            "semverRange": ">=5.25.0"
+        },
+        "compiler": [
+            {
+                "name": "xc8",
+                "semverRange": "^2.05.0"
+            }
+        ],
+        "dfp": {
+            "name": "PIC18F-K_DFP",
+            "semverRange": "^1.1.58"
+        },
+        "configurator": {
+            "name": "MCC",
+            "semverRange": ">=3.95.0"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F47K42",
+                "versionRange": "*"
+            }
+        },
+        "author": "UNG Applications",
+        "subcategories": [
+            "MCC",
+            [
+                "Peripherals", "SPI", "TIMER"
+            ]
+        ],
+        "peripherals": [
+            "Interrupt",
+            "TIMER"
+        ],
+        "keywords": [
+            "KSZ8851SNL",
+            "Ethernet",
+            "Wired",
+            "TCP/IP",
+            "Curiosity High Pin Count Development Board"
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./readme.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }   
+    }
+}
